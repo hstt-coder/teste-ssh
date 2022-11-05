@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+ul li:nth-child(odd) {
+  background-color: rebeccapurple;
+}
+
+ul li::after {
+  content: ' - ';
+}
